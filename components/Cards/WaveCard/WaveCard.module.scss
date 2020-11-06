@@ -1,0 +1,7 @@
+.body {
+    composes: card from "../../../settings/materials.module.scss";
+
+    background-color: gray;
+    height: 290px;
+    overflow: hidden;
+}

@@ -1,17 +1,15 @@
 import Head from "next/head";
-import styles from "../contents/Home/Home.module.css";
 
-export default function Home() {
+//Views
+import Home from "../contents/Home";
+
+export default function Index() {
     return (
-        <div className={styles.container}>
+        <div>
             <Head>
                 <title>Nuvu Saver</title>
-                <link rel="icon" href="/favicon.ico" />
             </Head>
-
-            <main className={styles.main}>
-                <h1 className="solid">Welcome to Nuvu Saver</h1>
-            </main>
+            <Home />
         </div>
     );
 }

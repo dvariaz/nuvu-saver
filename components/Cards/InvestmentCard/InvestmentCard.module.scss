@@ -1,0 +1,7 @@
+.body {
+    composes: card from "../../../settings/materials.module.scss";
+
+    display: inline-flex;
+    height: 202px;
+    background-color: white;
+}

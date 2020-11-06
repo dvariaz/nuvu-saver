@@ -1,0 +1,4 @@
+.body {
+    composes: card from "../../settings/materials.module.scss";
+    background: white;
+}
