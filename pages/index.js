@@ -10,7 +10,7 @@ export default function Home() {
             </Head>
 
             <main className={styles.main}>
-                <h1 className={styles.title}>Welcome to Nuvu Saver</h1>
+                <h1 className="solid">Welcome to Nuvu Saver</h1>
             </main>
         </div>
     );

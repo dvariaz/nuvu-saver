@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+    background: #f8f8fc;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: #817699;
+
+    &.solid {
+        opacity: 0.75;
+    }
+
+    &.light {
+        opacity: 0.5;
+    }
+}
