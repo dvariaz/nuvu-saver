@@ -5,11 +5,15 @@ import Post from "../../../../components/Post";
 
 const SavingTips = () => {
     return (
-        <div>
+        <section className="padding-2">
             <div>
                 <h2 className="section-title">Los P*t@s del ahorro</h2>
             </div>
-            <WaveCard />
+            <WaveCard
+                title="Esto es AHORRO"
+                description="Conoce como nuestro RoboAdvisor crea el mejor portafolio de inversión para ti."
+                background="/tips/this-is-saving-video-thumb.png"
+            />
             <List>
                 <Post
                     title="10 gastos que debes evitar"
@@ -32,7 +36,7 @@ const SavingTips = () => {
                     thumbnail="/articles/post-3.png"
                 />
             </List>
-        </div>
+        </section>
     );
 };
 
