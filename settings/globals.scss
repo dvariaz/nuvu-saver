@@ -4,6 +4,7 @@
     --primary-color-lighten: #a99dc6;
     --primary-color-darken: #58506b;
     --active-color: #54d1ed;
+    --trail-color: #faf9fd;
 }
 
 * {
@@ -13,6 +14,11 @@
 html {
     font-family: "Open Sans", sans-serif;
     background: var(--background-color);
+    width: 100vw;
+}
+
+body {
+    width: 100%;
 }
 
 h1,

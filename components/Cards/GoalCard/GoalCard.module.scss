@@ -2,4 +2,33 @@
     composes: card from "../../../settings/materials.module.scss";
 
     background: white;
+
+    width: 180px;
+    height: 100%;
+    margin: 0.5em;
+}
+
+.title {
+    color: var(--primary-color);
+    font-size: 0.9em;
+}
+
+.progress {
+    width: 40%;
+    flex-shrink: 0;
+}
+
+.values {
+    margin-left: 1em;
+
+    strong {
+        color: var(--active-color);
+        font-size: 0.8em;
+        margin-bottom: 0.25em;
+    }
+
+    span {
+        color: var(--primary-color);
+        font-size: 0.65em;
+    }
 }
