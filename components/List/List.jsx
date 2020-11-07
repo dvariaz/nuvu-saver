@@ -1,13 +1,7 @@
 import styles from "./List.module.scss";
 
-const List = () => {
-    return (
-        <div className={styles.body}>
-            <p>List</p>
-            <hr />
-            <p>Item</p>
-        </div>
-    );
+const List = ({ children }) => {
+    return <div className={styles.body}>{children}</div>;
 };
 
 export default List;

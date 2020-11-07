@@ -1,4 +1,18 @@
 .body {
     composes: card from "../../settings/materials.module.scss";
     background: white;
+
+    color: var(--primary-color-darken);
+
+    > * {
+        margin: 1em 0;
+
+        &:first-child {
+            margin-top: 0;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
 }

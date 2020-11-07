@@ -1,10 +1,18 @@
+:root {
+    --background-color: #f8f8fc;
+    --primary-color: #817699;
+    --primary-color-lighten: #a99dc6;
+    --primary-color-darken: #58506b;
+    --active-color: #54d1ed;
+}
+
 * {
     box-sizing: border-box;
 }
 
 html {
     font-family: "Open Sans", sans-serif;
-    background: #f8f8fc;
+    background: var(--background-color);
 }
 
 h1,
@@ -13,9 +21,8 @@ h3,
 h4,
 h5,
 h6,
-p {
-    color: #817699;
-
+p,
+span {
     &.solid {
         opacity: 0.75;
     }
@@ -27,4 +34,11 @@ p {
 
 hr {
     border: 1px solid #faf9fd;
+}
+
+.title-action-button {
+    outline: none;
+    cursor: pointer;
+    border: 0px;
+    background-color: transparent;
 }

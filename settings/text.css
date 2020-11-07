@@ -1,0 +1,11 @@
+.section-title {
+    color: var(--primary-color-darken);
+}
+
+.list-item-head {
+    font-weight: 400;
+}
+
+.list-item-value {
+    font-weight: 600;
+}

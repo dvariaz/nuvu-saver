@@ -1,5 +1,10 @@
-[class^="flex-"] {
+[class^="flex-"],
+[class*=" flex-"] {
     display: flex;
+}
+
+.flex-1 {
+    flex: 1;
 }
 
 .flex-row-between {
@@ -8,4 +13,12 @@
 
 .flex-row-inline {
     display: inline-flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.padding-2 {
+    padding: 1.5em;
 }
