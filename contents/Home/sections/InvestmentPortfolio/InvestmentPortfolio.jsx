@@ -3,13 +3,13 @@ import { InvestmentCard } from "../../../../components/Cards";
 
 const InvestmentPortfolio = () => {
     return (
-        <div>
+        <section className="padding-2">
             <div className="flex-row-between">
-                <h2>Conoce tu portafolio</h2>
+                <h2 className="section-title">Conoce tu portafolio</h2>
                 <div>Chip</div>
             </div>
             <InvestmentCard />
-        </div>
+        </section>
     );
 };
 

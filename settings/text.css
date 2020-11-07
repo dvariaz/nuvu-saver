@@ -2,6 +2,11 @@
     color: var(--primary-color-darken);
 }
 
+.success-title {
+    color: var(--success-color);
+    font-weight: 600;
+}
+
 .list-item-head {
     font-weight: 400;
 }

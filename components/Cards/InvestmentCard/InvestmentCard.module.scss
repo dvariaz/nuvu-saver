@@ -1,7 +1,64 @@
 .body {
     composes: card from "../../../settings/materials.module.scss";
 
-    display: inline-flex;
-    height: 202px;
+    width: 100%;
+    // height: 230px;
+    color: var(--primary-color-darken);
     background-color: white;
+}
+
+.progress {
+    width: 42%;
+    flex-shrink: 0;
+}
+
+.advisor {
+    width: 60%;
+    height: 60%;
+    font-size: 0.65em;
+    letter-spacing: -0.03em;
+
+    .advisorFunds {
+        font-size: 1.25em;
+    }
+
+    img {
+        width: 55%;
+    }
+}
+
+.investment {
+    font-size: 0.8em;
+
+    .investmentName {
+        letter-spacing: -0.05em;
+        font-weight: 400;
+        margin: 0.7em 0;
+    }
+}
+
+.investmentFund {
+    height: 1.1em;
+}
+
+.activeTypes {
+    font-size: 0.7em;
+    letter-spacing: -0.03em;
+
+    ul {
+        margin: 0;
+        padding-left: 0;
+
+        li {
+            margin: 0.5em 0;
+            list-style-type: none;
+        }
+    }
+}
+
+.footer {
+    display: inline-block;
+    font-size: 0.7em;
+    line-height: 1.25em;
+    letter-spacing: -0.03em;
 }
