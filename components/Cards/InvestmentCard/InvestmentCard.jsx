@@ -1,5 +1,7 @@
-import { CircularProgressbarWithChildren, buildStyles } from "react-circular-progressbar";
 import styles from "./InvestmentCard.module.scss";
+import { CircularProgressbarWithChildren, buildStyles } from "react-circular-progressbar";
+import Chip from "../../Chip/Chip";
+import { CHIP_SOLID } from "../../Chip/chipTypes";
 
 import RadialSeparators from "./RadialSeparators";
 
@@ -40,7 +42,7 @@ const InvestmentCard = ({ investments }) => {
                             src="/investment-funds/skandia-logo.png"
                             className={styles.investmentFund}
                         />
-                        <span>Toast</span>
+                        <Chip chipStyle={CHIP_SOLID}>15%</Chip>
                     </div>
                     <div className={`${styles.investment} margin-bottom-1`}>
                         <h4 className={styles.investmentName}>FIC Old Mutual Efectivo</h4>

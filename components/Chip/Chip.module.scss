@@ -1,0 +1,17 @@
+.body {
+    border-radius: 1em;
+    font-size: 0.65em;
+    padding: 0.4em 1em;
+    flex-shrink: 0;
+}
+
+.light {
+    color: var(--success-color);
+    background-color: var(--success-color-soft);
+    border: 1px solid var(--success-color);
+}
+
+.solid {
+    color: white;
+    background-color: var(--success-color);
+}
