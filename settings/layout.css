@@ -3,6 +3,11 @@
     display: flex;
 }
 
+[class^="flex-column"],
+[class*=" flex-column"] {
+    flex-direction: column;
+}
+
 .flex-1 {
     flex: 1;
 }
@@ -15,8 +20,8 @@
     display: inline-flex;
 }
 
-.flex-column {
-    flex-direction: column;
+.flex-column-between {
+    justify-content: space-between;
 }
 
 .padding-2 {

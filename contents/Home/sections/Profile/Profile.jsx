@@ -3,6 +3,9 @@ import Image from "next/image";
 import { ProfileCard } from "../../../../components/Cards";
 import List from "../../../../components/List";
 
+//Types
+import { USER_STRATEGIST } from "../../../../utils/userTypes";
+
 const Profile = () => {
     return (
         <section className="padding-2">
@@ -17,7 +20,7 @@ const Profile = () => {
                     />
                 </button>
             </div>
-            <ProfileCard />
+            <ProfileCard amount={1570000} usertype={USER_STRATEGIST} />
             <List>
                 <li className="flex-row-between">
                     <span className="list-item-head">Inversión</span>
