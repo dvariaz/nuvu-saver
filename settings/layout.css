@@ -63,6 +63,14 @@
     padding: 2em;
 }
 
+.padding-bottom-5 {
+    padding-bottom: 5em;
+}
+
+.padding-bottom-12 {
+    padding-bottom: 12em;
+}
+
 .margin-2 {
     margin: 2em;
 }

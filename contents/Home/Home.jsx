@@ -8,7 +8,7 @@ import SavingTips from "./sections/SavingTips";
 
 const Home = () => {
     return (
-        <main>
+        <main className="padding-bottom-12">
             <Profile />
             <Goals />
             <InvestmentPortfolio />
