@@ -4,7 +4,6 @@ import "../settings/normalize.css";
 import "../settings/globals.scss";
 import "../settings/layout.css";
 import "../settings/text.css";
-import "../settings/fixes.css";
 
 function MyApp({ Component, pageProps }) {
     return <Component {...pageProps} />;
