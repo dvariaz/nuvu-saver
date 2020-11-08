@@ -5,8 +5,8 @@ import { GoalCard } from "../../../../components/Cards";
 
 const Goals = () => {
     return (
-        <div>
-            <div className="flex-row-between padding-x-2">
+        <div className="padding-x-2">
+            <div className="flex-row-between">
                 <h2 className="section-title">Tus metas</h2>
                 <button className="title-action-button">
                     <Image
