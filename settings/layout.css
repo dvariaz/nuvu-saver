@@ -75,6 +75,11 @@
     margin: 2em;
 }
 
+.margin-y-2 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
 .margin-top-auto {
     margin-top: auto;
 }

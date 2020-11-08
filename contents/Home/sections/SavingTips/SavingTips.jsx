@@ -9,11 +9,13 @@ const SavingTips = () => {
             <div>
                 <h2 className="section-title">Los P*t@s del ahorro</h2>
             </div>
-            <WaveCard
-                title="Esto es AHORRO"
-                description="Conoce como nuestro RoboAdvisor crea el mejor portafolio de inversión para ti."
-                background="/tips/this-is-saving-video-thumb.png"
-            />
+            <div className="margin-y-2">
+                <WaveCard
+                    title="Esto es AHORRO"
+                    description="Conoce como nuestro RoboAdvisor crea el mejor portafolio de inversión para ti."
+                    background="/tips/this-is-saving-video-thumb.png"
+                />
+            </div>
             <List>
                 <Post
                     title="10 gastos que debes evitar"

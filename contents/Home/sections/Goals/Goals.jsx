@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 //Components
 import { GoalCard } from "../../../../components/Cards";
 
@@ -6,7 +8,14 @@ const Goals = () => {
         <div>
             <div className="flex-row-between padding-x-2">
                 <h2 className="section-title">Tus metas</h2>
-                <button>+</button>
+                <button className="title-action-button">
+                    <Image
+                        src="/icons/add_circle_outline_24px.svg"
+                        alt="Notificaciones"
+                        width={25}
+                        height={25}
+                    />
+                </button>
             </div>
             <div className="flex-row-inline" style={{ height: 200 }}>
                 <GoalCard
