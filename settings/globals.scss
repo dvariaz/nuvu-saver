@@ -22,6 +22,7 @@ html {
 
 body {
     width: 100%;
+    position: relative;
 }
 
 h1,
@@ -39,6 +40,11 @@ span {
     &.light {
         opacity: 0.5;
     }
+}
+
+a {
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
 }
 
 hr {
