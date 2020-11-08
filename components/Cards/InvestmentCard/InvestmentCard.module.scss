@@ -15,11 +15,11 @@
 .advisor {
     width: 60%;
     height: 60%;
-    font-size: 0.65em;
     letter-spacing: -0.03em;
 
     .advisorFunds {
-        font-size: 1.25em;
+        margin-top: 0.5em;
+        font-size: 1.2em;
     }
 
     img {
@@ -28,7 +28,7 @@
 }
 
 .investment {
-    font-size: 0.8em;
+    font-size: 1.2em;
 
     .investmentName {
         letter-spacing: -0.05em;
@@ -38,11 +38,10 @@
 }
 
 .investmentFund {
-    height: 1.1em;
+    height: 1.5em;
 }
 
 .activeTypes {
-    font-size: 0.7em;
     letter-spacing: -0.03em;
 
     ul {
@@ -58,7 +57,6 @@
 
 .footer {
     display: inline-block;
-    font-size: 0.7em;
     line-height: 1.25em;
     letter-spacing: -0.03em;
 }

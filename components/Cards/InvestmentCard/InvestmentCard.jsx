@@ -12,7 +12,7 @@ const InvestmentCard = ({ investments }) => {
                 <div className={`${styles.progress} margin-right-1`}>
                     <CircularProgressbarWithChildren
                         value={10}
-                        strokeWidth={10}
+                        strokeWidth={8}
                         styles={buildStyles({
                             pathColor: "var(--success-color)",
                             strokeLinecap: "butt",

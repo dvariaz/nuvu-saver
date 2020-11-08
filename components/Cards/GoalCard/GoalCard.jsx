@@ -22,7 +22,7 @@ const GoalCard = ({ title, goal, currentMoney, imageSrc }) => {
                                 stroke: "var(--active-color)",
                             },
                             text: {
-                                fontSize: "1.5em",
+                                fontSize: "2.5em",
                                 fill: "var(--active-color)",
                                 fontWeight: "600",
                             },

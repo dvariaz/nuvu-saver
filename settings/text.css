@@ -1,5 +1,6 @@
 .section-title {
     color: var(--primary-color-darken);
+    font-size: 1.8em;
 }
 
 .success-title {
@@ -8,9 +9,11 @@
 }
 
 .list-item-head {
+    font-size: 1.4em;
     font-weight: 400;
 }
 
 .list-item-value {
+    font-size: 1.4em;
     font-weight: 600;
 }
