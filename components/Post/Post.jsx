@@ -1,3 +1,7 @@
+/**
+ * Post - Component to show resumed information with thumbnail for articles
+ */
+
 import Image from "next/image";
 import PropTypes from "prop-types";
 import styles from "./Post.module.scss";

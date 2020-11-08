@@ -1,3 +1,7 @@
+/**
+ * Investment Card - Component to display the investments performance
+ */
+
 import { toCurrency, toPercent } from "../../../utils/numbers";
 import styles from "./InvestmentCard.module.scss";
 import { CircularProgressbarWithChildren, buildStyles } from "react-circular-progressbar";

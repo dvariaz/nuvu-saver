@@ -1,3 +1,6 @@
+/**
+ * Goal Card - Card to display Goal's state with circular progress bar
+ */
 import { CircularProgressbar } from "react-circular-progressbar";
 import Image from "next/image";
 import { toCurrency } from "../../../utils/numbers";

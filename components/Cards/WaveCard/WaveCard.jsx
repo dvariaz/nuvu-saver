@@ -1,3 +1,7 @@
+/**
+ * WaveCard - Card to display videos with wave-decorated captions
+ */
+
 import Image from "next/image";
 import styles from "./WaveCard.module.scss";
 

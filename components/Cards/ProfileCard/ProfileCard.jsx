@@ -1,3 +1,7 @@
+/**
+ * ProfileCard - Card to display the profile data based on usertype
+ */
+
 import Image from "next/image";
 import styles from "./ProfileCard.module.scss";
 

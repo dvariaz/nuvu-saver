@@ -1,3 +1,7 @@
+/**
+ * Chip - Minimal and customizable component to show text inside based in 2 chip types (solid and light)
+ */
+
 import styles from "./Chip.module.scss";
 
 import { CHIP_SOLID, CHIP_LIGHT } from "./chipTypes";

@@ -1,3 +1,7 @@
+/**
+ * Separator - Component that allows to divide the circular progress bar placing multiple lines
+ */
+
 import _ from "lodash";
 
 function Separator(props) {

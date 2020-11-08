@@ -1,3 +1,7 @@
+/**
+ * This usertypes it's a bridge between real type of user and system-based name
+ */
+
 export const USER_STRATEGIST = "USER_STRATEGIST";
 
 const userTypes = {
@@ -7,6 +11,7 @@ const userTypes = {
     },
 };
 
+//Returns real usertype name
 export function getName(type) {
     try {
         return userTypes[type].name;
@@ -16,6 +21,7 @@ export function getName(type) {
     }
 }
 
+//returns the graphic of the usertype
 export function getGraphic(type) {
     try {
         return userTypes[type].graphicUrl;

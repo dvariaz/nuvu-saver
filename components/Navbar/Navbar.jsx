@@ -1,3 +1,8 @@
+/**
+ * Navbar - SVG based component for navigate in the app
+ * The SVG container could be animated moving the mask
+ */
+
 import { motion } from "framer-motion";
 import styles from "./Navbar.module.scss";
 
