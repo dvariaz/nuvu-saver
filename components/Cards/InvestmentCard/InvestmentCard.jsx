@@ -8,7 +8,7 @@ import RadialSeparators from "./RadialSeparators";
 const InvestmentCard = ({ investments }) => {
     return (
         <div className={styles.body}>
-            <div className="flex-row margin-bottom-2">
+            <div className="flex-row margin-bottom-1">
                 <div className={`${styles.progress} margin-right-1`}>
                     <CircularProgressbarWithChildren
                         value={10}
@@ -54,6 +54,14 @@ const InvestmentCard = ({ investments }) => {
                             <li>Renta fija</li>
                             <li>Deposito a la fija</li>
                         </ul>
+                    </div>
+                    <div className="flex-row-between margin-top-1">
+                        <button className={styles.navigator}>
+                            <img src="/icons/chevron_left_24px.svg" />
+                        </button>
+                        <button className={styles.navigator}>
+                            <img src="/icons/chevron_right_24px.svg" />
+                        </button>
                     </div>
                 </div>
             </div>
