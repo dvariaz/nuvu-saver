@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "./ProfileCard.module.scss";
 
 import { getName, getGraphic } from "../../../utils/userTypes.js";
+import { toCurrency } from "../../../utils/numbers";
 
 const ProfileCard = ({ amount, usertype }) => {
     const name = getName(usertype);
@@ -13,7 +14,7 @@ const ProfileCard = ({ amount, usertype }) => {
                 <h3>Eres {name}</h3>
                 <div className={styles.amount}>
                     <small>Tu saldo</small>
-                    <strong>${amount}</strong>
+                    <strong>{toCurrency(amount)}</strong>
                 </div>
             </div>
             {graphicUrl && (

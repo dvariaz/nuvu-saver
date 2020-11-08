@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { toCurrency } from "../../../../utils/numbers";
+
 //Components
 import { ProfileCard } from "../../../../components/Cards";
 import List from "../../../../components/List";
@@ -24,12 +26,12 @@ const Profile = () => {
             <List>
                 <li className="flex-row-between">
                     <span className="list-item-head">Inversión</span>
-                    <span className="list-item-value">$1.600.000</span>
+                    <span className="list-item-value">{toCurrency(1600000)}</span>
                 </li>
                 <hr />
                 <li className="flex-row-between">
                     <span className="list-item-head">Rendimiento</span>
-                    <span className="list-item-value">-$30.000</span>
+                    <span className="list-item-value">{toCurrency(-30000)}</span>
                 </li>
             </List>
         </section>

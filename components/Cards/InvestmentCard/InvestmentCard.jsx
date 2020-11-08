@@ -1,6 +1,7 @@
+import { toCurrency, toPercent } from "../../../utils/numbers";
 import styles from "./InvestmentCard.module.scss";
 import { CircularProgressbarWithChildren, buildStyles } from "react-circular-progressbar";
-import Chip from "../../Chip/Chip";
+import Chip from "../../Chip";
 import { CHIP_SOLID } from "../../Chip/chipTypes";
 
 import RadialSeparators from "./RadialSeparators";
@@ -42,11 +43,11 @@ const InvestmentCard = ({ investments }) => {
                             src="/investment-funds/skandia-logo.png"
                             className={styles.investmentFund}
                         />
-                        <Chip chipStyle={CHIP_SOLID}>15%</Chip>
+                        <Chip chipStyle={CHIP_SOLID}>{toPercent(0.15)}</Chip>
                     </div>
                     <div className={`${styles.investment} margin-bottom-1`}>
                         <h4 className={styles.investmentName}>FIC Old Mutual Efectivo</h4>
-                        <strong className={styles.investmentValue}>$240000</strong>
+                        <strong className={styles.investmentValue}>{toCurrency(240000)}</strong>
                     </div>
                     <div className={styles.activeTypes}>
                         <div className="success-title">Tipo de activo</div>

@@ -1,5 +1,6 @@
 import { CircularProgressbar } from "react-circular-progressbar";
 import Image from "next/image";
+import { toCurrency } from "../../../utils/numbers";
 import styles from "./GoalCard.module.scss";
 
 const GoalCard = ({ title, goal, currentMoney, imageSrc }) => {
@@ -34,8 +35,8 @@ const GoalCard = ({ title, goal, currentMoney, imageSrc }) => {
                     />
                 </div>
                 <div className={`${styles.values} flex-1 flex-column-center`}>
-                    <strong>${currentMoney}</strong>
-                    <span>${goal}</span>
+                    <strong>{toCurrency(currentMoney)}</strong>
+                    <span>{toCurrency(goal)}</span>
                 </div>
             </div>
         </div>
